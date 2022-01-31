@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Navigation() {
   
@@ -39,9 +40,9 @@ export default function Navigation() {
       }}
     >
       <div className="container">
-        <a className ="navbar-brand" href="/">
+        <Link  className ="navbar-brand" href="/">
           Revved Pets Adoption
-        </a>
+        </Link>
         <button
           className ="navbar-toggler"
           type="button"
@@ -56,14 +57,14 @@ export default function Navigation() {
         <div className ="collapse navbar-collapse" id="navbarText">
           <ul className ="navbar-nav mr-auto">
             <li className ="nav-item">
-              <a className ="nav-link" href="#">
+              <Link  className ="nav-link" href="#">
                 Make A Donation
-              </a>
+              </Link>
             </li>
             <li className ="nav-item">
-              <a className ="nav-link" href="#">
+              <Link  className ="nav-link" href="#">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
