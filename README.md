@@ -1,34 +1,44 @@
+# Pet Adoption
+
+  
+
+  ## Description
+  This app provides a mock up page for a pet-adoption client. 
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Screenshots](#screenshots)
+
+
+  ## Installation
+  To install, download as zip. You should have node.js. 
+  Then, run the development server:
+
+   ```bash
+   npm run dev
+     ```
+
+  ## Usage
+  The purpose of this app is to provide customer's for the pet adoption an effiecient way to view potential pets.
+
+  ## Screenshots
+  ![alt text](./home_header.png "Home Page")
+  The home page provides a straightforward yet modern design to appeal to clients and customers.
+
+  ![alt text](./home_scroll.png "Note Page")
+  Once you scroll down you are introduce to click on to view pets or learn more about the pet adoption agency.
+
+
+  ## Contributing
+  For further contributions, please contact me via email.
+
+
+  ## Questions
+  If you have any questions or concerns about this application, please contact me via email: __bradleyj1@email.arizona.edu__ You may also visit my Github page: __https://github.com/JazmyneB__
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -16,14 +16,12 @@ function homePage(){
     <div className = 'row'>
     <div className = "col-md-3 offset-md-3 text-center views">
     <h3> 
-      <Link href="/pets"> <a> View Pets </a> </Link>
+      <a href="/pets"> View Pets </a> 
     </h3>
     </div>
       <div className='col-md-3 ml-md-auto' style={{ height: 350, width: 400}}>
-      <Link href="/pets">
-        <a><Image src={pets} alt="Pets" width={400} height={350} className = "homeview"/>
-        </a>
-      </Link>
+    <a href = "/pets/"><Image src={pets} alt="Pets" width={400} height={350} className = "homeview"/></a>
+       
       </div>
     </div>
 
@@ -31,7 +29,7 @@ function homePage(){
     <div className = "row">
       <div className = "col-md-3 offset-md-3" style = {{ height:350, width:400 }}>
       <Link href="/about">
-        <a> <Image src={aboutUs} alt="About" width={400} height={350} className = "homeview"/>
+         <a> <Image src={aboutUs} alt="About" width={400} height={350} className = "homeview"/>
         </a>
       </Link>
       </div>

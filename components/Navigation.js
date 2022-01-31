@@ -40,9 +40,9 @@ export default function Navigation() {
       }}
     >
       <div className="container">
-        <Link  className ="navbar-brand" href="/">
-          <a> Revved Pets Adoption </a>
-        </Link>
+        <a  className ="navbar-brand" href="/">
+           Revved Pets Adoption </a>
+        
         <button
           className ="navbar-toggler"
           type="button"
@@ -57,14 +57,14 @@ export default function Navigation() {
         <div className ="collapse navbar-collapse" id="navbarText">
           <ul className ="navbar-nav mr-auto">
             <li className ="nav-item">
-              <Link  className ="nav-link" href="#">
-                <a>Make A Donation</a>
-              </Link>
+              <a  className ="nav-link" href="#">
+                Make A Donation</a>
+              
             </li>
             <li className ="nav-item">
-              <Link  className ="nav-link" href="#">
-                <a>Contact </a>
-              </Link>
+              <a  className ="nav-link" href="#">
+                Contact </a>
+              
             </li>
           </ul>
         </div>
