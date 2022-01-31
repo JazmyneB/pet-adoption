@@ -1,12 +1,10 @@
 {
   "name": "pet-adoption",
-  "version": "14.17.3",
-  "description": "",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "repository": {
