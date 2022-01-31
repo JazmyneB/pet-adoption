@@ -13,7 +13,7 @@ return(
     <div className="container">
       <div className="row justify-content-center text-center">
         <div className="col-lg-6  d-flex justify-content-center flex-column">
-          <h1 className="text-white pt-3 mt-n5">Welcome to Revved's Pet Adoption</h1>
+          <h1 className="text-white pt-3 mt-n5">Welcome to Revveds Pet Adoption</h1>
           <p className="text-white lead pt-3">The time is now for it be okay to be great. People in this world shun people for being nice. </p>
           <div className="buttons">
             <button type="button" className="btn btn-white mt-4">Get Started</button>
