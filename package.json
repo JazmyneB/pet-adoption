@@ -1,12 +1,17 @@
 {
   "name": "pet-adoption",
+  "version": "14.17.3",
+  "description": "",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "npm run build",
     "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JazmyneB/pet-adoption.git"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
