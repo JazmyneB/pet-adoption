@@ -41,7 +41,7 @@ export default function Navigation() {
     >
       <div className="container">
         <Link  className ="navbar-brand" href="/">
-          Revved Pets Adoption
+          <a> Revved Pets Adoption </a>
         </Link>
         <button
           className ="navbar-toggler"
@@ -58,12 +58,12 @@ export default function Navigation() {
           <ul className ="navbar-nav mr-auto">
             <li className ="nav-item">
               <Link  className ="nav-link" href="#">
-                Make A Donation
+                <a>Make A Donation</a>
               </Link>
             </li>
             <li className ="nav-item">
               <Link  className ="nav-link" href="#">
-                Contact
+                <a>Contact </a>
               </Link>
             </li>
           </ul>
