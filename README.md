@@ -15,9 +15,7 @@
   To install, download as zip. You should have node.js. 
   Then, run the development server:
 
-   ```bash
    npm run dev
-     ```
 
   ## Usage
   The purpose of this app is to provide customer's for the pet adoption an effiecient way to view potential pets.
@@ -26,7 +24,7 @@
   ![alt text](./home_header.png "Home Page")
   The home page provides a straightforward yet modern design to appeal to clients and customers.
 
-  ![alt text](./home_scroll.png "Note Page")
+  ![alt text](./home_scroll.png "Home Page Links")
   Once you scroll down you are introduce to click on to view pets or learn more about the pet adoption agency.
 
 
